@@ -1,0 +1,99 @@
+{
+  "insights": [
+    {
+      "id": "1772537007368",
+      "text": "Coaches don't have time to navigate through complex menus during the match.\nCoaches want to quickly see the physical condition of players (stamina, injury risk).\nTechnical staff needs short and clear instructions",
+      "clusterId": "1772537128344"
+    },
+    {
+      "id": "1772537224712",
+      "text": "During the break in the match, coaches have time for more detailed analysis",
+      "clusterId": "1772537258134"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "1772537128344",
+      "name": "Real-Time Decision Making",
+      "statement": "",
+      "color": "#103162",
+      "insightIds": []
+    },
+    {
+      "id": "1772537258134",
+      "name": "Communication & Coordination",
+      "statement": "",
+      "color": "#7D9BC8",
+      "insightIds": []
+    }
+  ],
+  "hmws": [
+    {
+      "id": "1772537336898",
+      "question": "How might we help coaches access critical information instantly during the match?",
+      "answers": [
+        {
+          "id": "1772537427655",
+          "text": "A dashboard with 3 major indicators: stamina, injury risk, performance.",
+          "votes": []
+        },
+        {
+          "id": "1772537465880",
+          "text": "Smart alerts that appear automatically when a player drops below a certain threshold",
+          "votes": []
+        }
+      ]
+    },
+    {
+      "id": "1772537390223",
+      "question": "How might we simplify the interface so coaches don’t waste time navigating menus?",
+      "answers": [
+        {
+          "id": "1772537564213",
+          "text": "A menu with 4 large buttons: Tactics, Players, Opponent, Alerts.",
+          "votes": []
+        },
+        {
+          "id": "1772537580364",
+          "text": "Quick gestures (swipe left/right) to switch between screens.",
+          "votes": []
+        }
+      ]
+    }
+  ],
+  "votingSettings": {
+    "votesPerMember": 5,
+    "teamMembers": [
+      {
+        "id": "4cddd3a6-da87-4338-bfc9-419462cce4bc",
+        "name": "Matei",
+        "color": "#103162",
+        "votesRemaining": 5
+      },
+      {
+        "id": "016d782c-9679-46fa-951f-b4764b17cc56",
+        "name": "Dan",
+        "color": "#7D9BC8",
+        "votesRemaining": 5
+      },
+      {
+        "id": "6f6e8a4d-8d15-4e21-b00a-63b463e75014",
+        "name": "Alin",
+        "color": "#FF8E70",
+        "votesRemaining": 5
+      },
+      {
+        "id": "1af73477-3be5-4368-b7a4-fb7a396115d7",
+        "name": "Alex",
+        "color": "#1e4a8f",
+        "votesRemaining": 5
+      },
+      {
+        "id": "ba43fe3c-deb2-4938-91f6-cf3d4df2530a",
+        "name": "Ion",
+        "color": "#5a7eb0",
+        "votesRemaining": 5
+      }
+    ]
+  }
+}
