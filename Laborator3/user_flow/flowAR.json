@@ -1,0 +1,127 @@
+[
+  {
+    "id": "node-1775125969513",
+    "type": "node",
+    "screen": "Live Field View",
+    "actions": [
+      {
+        "id": "action-1775125969513",
+        "label": "View tactical highlight",
+        "connections": [
+          {
+            "targetId": "node-1775125978727",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      }
+    ],
+    "x": 11,
+    "y": 23
+  },
+  {
+    "id": "node-1775125978727",
+    "type": "node",
+    "screen": "Tactical Highlight Overlay",
+    "actions": [
+      {
+        "id": "action-1775125978727",
+        "label": "View highlighted zone",
+        "connections": []
+      },
+      {
+        "id": "action-1775125984235",
+        "label": "Review threat type",
+        "connections": []
+      },
+      {
+        "id": "action-1775125984590",
+        "label": "Open Quick Insight Card",
+        "connections": [
+          {
+            "targetId": "node-1775125992537",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      }
+    ],
+    "x": 384,
+    "y": 18
+  },
+  {
+    "id": "node-1775125992537",
+    "type": "node",
+    "screen": "Quick Insight Card",
+    "actions": [
+      {
+        "id": "action-1775125992537",
+        "label": "Read short explanation",
+        "connections": []
+      },
+      {
+        "id": "action-1775126001823",
+        "label": "Open Quick Actions",
+        "connections": [
+          {
+            "targetId": "node-1775126009483",
+            "fromPosition": "left",
+            "toPosition": "top"
+          }
+        ]
+      }
+    ],
+    "x": 856,
+    "y": 18
+  },
+  {
+    "id": "node-1775126009483",
+    "type": "node",
+    "screen": "Quick Actions",
+    "actions": [
+      {
+        "id": "action-1775126009483",
+        "label": "Select quick command",
+        "connections": []
+      },
+      {
+        "id": "action-1775126017177",
+        "label": "Tap “Send command”",
+        "connections": [
+          {
+            "targetId": "node-1775126021477",
+            "fromPosition": "left",
+            "toPosition": "right"
+          }
+        ]
+      }
+    ],
+    "x": 706,
+    "y": 431
+  },
+  {
+    "id": "node-1775126021477",
+    "type": "node",
+    "screen": "Confirmation Overlay",
+    "actions": [
+      {
+        "id": "action-1775126021477",
+        "label": "Command sent successfully",
+        "connections": [
+          {
+            "targetId": "node-1775125969513",
+            "fromPosition": "left",
+            "toPosition": "right"
+          }
+        ]
+      },
+      {
+        "id": "action-1775126029244",
+        "label": "Return to Live Field View",
+        "connections": []
+      }
+    ],
+    "x": 331,
+    "y": 425
+  }
+]

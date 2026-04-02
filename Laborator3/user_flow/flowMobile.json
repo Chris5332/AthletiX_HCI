@@ -1,0 +1,106 @@
+[
+  {
+    "id": "node-1775123407431",
+    "type": "node",
+    "screen": "Home Screen",
+    "actions": [
+      {
+        "id": "action-1775123407431",
+        "label": "Open Tactics Board",
+        "connections": [
+          {
+            "targetId": "node-1775123895496",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      }
+    ],
+    "x": 7,
+    "y": 7
+  },
+  {
+    "id": "node-1775123895496",
+    "type": "node",
+    "screen": "Tactics Board",
+    "actions": [
+      {
+        "id": "action-1775123895496",
+        "label": "View heatmap",
+        "connections": []
+      },
+      {
+        "id": "action-1775123913004",
+        "label": "Select zone / player",
+        "connections": []
+      },
+      {
+        "id": "action-1775123913379",
+        "label": "Review tactical insight",
+        "connections": []
+      },
+      {
+        "id": "action-1775123913737",
+        "label": "Tap “Send to AR”",
+        "connections": [
+          {
+            "targetId": "node-1775123927987",
+            "fromPosition": "left",
+            "toPosition": "top"
+          }
+        ]
+      }
+    ],
+    "x": 505,
+    "y": 8
+  },
+  {
+    "id": "node-1775123927987",
+    "type": "node",
+    "screen": "Send to AR Review",
+    "actions": [
+      {
+        "id": "action-1775123927987",
+        "label": "Confirm selected zone",
+        "connections": []
+      },
+      {
+        "id": "action-1775123943817",
+        "label": "Confirm tactical message",
+        "connections": []
+      },
+      {
+        "id": "action-1775123949384",
+        "label": "Tap “Send”",
+        "connections": [
+          {
+            "targetId": "node-1775123955360",
+            "fromPosition": "right",
+            "toPosition": "left"
+          }
+        ]
+      }
+    ],
+    "x": 5,
+    "y": 314
+  },
+  {
+    "id": "node-1775123955360",
+    "type": "node",
+    "screen": "Send to AR Confirmation",
+    "actions": [
+      {
+        "id": "action-1775123955360",
+        "label": "Insight sent successfully",
+        "connections": []
+      },
+      {
+        "id": "action-1775124029209",
+        "label": "Return to Home Screen",
+        "connections": []
+      }
+    ],
+    "x": 509,
+    "y": 410
+  }
+]
