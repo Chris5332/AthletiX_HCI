@@ -1,0 +1,5 @@
+Mobile / Tablet: dashboard, bottom bar, buttons, tables as lists, tap, search, warnings, success, toggle, slider, dedicated screens.
+
+AR Headset: live field view, contextual overlays, floating panels, alert cards, quick insight cards, quick actions, dismissible overlays, confirmation overlay, display controls, minimal mode.
+
+Smartwatch: action buttons, action confirmation, card stacks, glances, alerts, lists, menus, sliders, switches, buttons, labels.

@@ -1,0 +1,3 @@
+Mobile prototype: [https://sideline-insight-hub.lovable.app/]
+AR headset prototype: [https://fieldvision-coach.lovable.app/]
+Smartwatch prototype: [https://sidematch-comms.lovable.app/]
