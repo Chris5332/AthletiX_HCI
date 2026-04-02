@@ -1,0 +1,210 @@
+{
+  "insights": [
+    {
+      "id": "1772537007368",
+      "text": "Coaches don't have time to navigate through complex menus during the match.\nCoaches want to quickly see the physical condition of players (stamina, injury risk).\nTechnical staff needs short and clear instructions",
+      "clusterId": "1772537128344"
+    },
+    {
+      "id": "1772537224712",
+      "text": "During the break in the match, coaches have time for more detailed analysis",
+      "clusterId": "1772537258134"
+    }
+  ],
+  "clusters": [
+    {
+      "id": "1772537128344",
+      "name": "Real-Time Decision Making",
+      "statement": "Coaches need instant access to the most critical match and player information, in a simple format, so they can make fast decisions without losing focus on the game.",
+      "color": "#103162",
+      "insightIds": []
+    },
+    {
+      "id": "1772537258134",
+      "name": "Communication & Coordination",
+      "statement": "Coaches and staff need different levels of information depending on the match moment: quick, concise communication during play and more detailed analysis during breaks.",
+      "color": "#7D9BC8",
+      "insightIds": []
+    }
+  ],
+  "hmws": [
+    {
+      "id": "1772537336898",
+      "question": "How might we help coaches access critical information instantly during the match?",
+      "answers": [
+        {
+          "id": "1772537427655",
+          "text": "A dashboard with 3 major indicators: stamina, injury risk, performance.",
+          "votes": [
+            {
+              "memberId": "4cddd3a6-da87-4338-bfc9-419462cce4bc",
+              "memberColor": "#103162"
+            },
+            {
+              "memberId": "016d782c-9679-46fa-951f-b4764b17cc56",
+              "memberColor": "#7D9BC8"
+            },
+            {
+              "memberId": "6f6e8a4d-8d15-4e21-b00a-63b463e75014",
+              "memberColor": "#FF8E70"
+            }
+          ]
+        },
+        {
+          "id": "1772537465880",
+          "text": "Smart alerts that appear automatically when a player drops below a certain threshold",
+          "votes": [
+            {
+              "memberId": "016d782c-9679-46fa-951f-b4764b17cc56",
+              "memberColor": "#7D9BC8"
+            },
+            {
+              "memberId": "1af73477-3be5-4368-b7a4-fb7a396115d7",
+              "memberColor": "#1e4a8f"
+            },
+            {
+              "memberId": "ba43fe3c-deb2-4938-91f6-cf3d4df2530a",
+              "memberColor": "#5a7eb0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1772537390223",
+      "question": "How might we simplify the interface so coaches don’t waste time navigating menus?",
+      "answers": [
+        {
+          "id": "1772537564213",
+          "text": "A menu with 4 large buttons: Tactics, Players, Opponent, Alerts.",
+          "votes": []
+        },
+        {
+          "id": "1772537580364",
+          "text": "Quick gestures (swipe left/right) to switch between screens.",
+          "votes": [
+            {
+              "memberId": "4cddd3a6-da87-4338-bfc9-419462cce4bc",
+              "memberColor": "#103162"
+            },
+            {
+              "memberId": "016d782c-9679-46fa-951f-b4764b17cc56",
+              "memberColor": "#7D9BC8"
+            },
+            {
+              "memberId": "6f6e8a4d-8d15-4e21-b00a-63b463e75014",
+              "memberColor": "#FF8E70"
+            },
+            {
+              "memberId": "ba43fe3c-deb2-4938-91f6-cf3d4df2530a",
+              "memberColor": "#5a7eb0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1775118438638",
+      "question": "How might we help the video analyst send only essential tactical insights from tablet to MR?",
+      "answers": [
+        {
+          "id": "1775118662421",
+          "text": "One-tap “Send to AR” button for selected tactical zones or players.",
+          "votes": [
+            {
+              "memberId": "4cddd3a6-da87-4338-bfc9-419462cce4bc",
+              "memberColor": "#103162"
+            },
+            {
+              "memberId": "1af73477-3be5-4368-b7a4-fb7a396115d7",
+              "memberColor": "#1e4a8f"
+            },
+            {
+              "memberId": "ba43fe3c-deb2-4938-91f6-cf3d4df2530a",
+              "memberColor": "#5a7eb0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1775118457298",
+      "question": "How might we make MR and smartwatch feedback non-intrusive for low-tech staff?",
+      "answers": [
+        {
+          "id": "1775118670829",
+          "text": "Minimalist mode with only essential alerts and no complex visual overlays",
+          "votes": [
+            {
+              "memberId": "016d782c-9679-46fa-951f-b4764b17cc56",
+              "memberColor": "#7D9BC8"
+            },
+            {
+              "memberId": "6f6e8a4d-8d15-4e21-b00a-63b463e75014",
+              "memberColor": "#FF8E70"
+            },
+            {
+              "memberId": "1af73477-3be5-4368-b7a4-fb7a396115d7",
+              "memberColor": "#1e4a8f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1775118479413",
+      "question": "How might we support quick coach–staff communication without blocking attention from the field?",
+      "answers": [
+        {
+          "id": "1775118680799",
+          "text": "Voice-to-text short commands sent instantly to staff devices.",
+          "votes": [
+            {
+              "memberId": "4cddd3a6-da87-4338-bfc9-419462cce4bc",
+              "memberColor": "#103162"
+            },
+            {
+              "memberId": "6f6e8a4d-8d15-4e21-b00a-63b463e75014",
+              "memberColor": "#FF8E70"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "votingSettings": {
+    "votesPerMember": 5,
+    "teamMembers": [
+      {
+        "id": "4cddd3a6-da87-4338-bfc9-419462cce4bc",
+        "name": "Matei",
+        "color": "#103162",
+        "votesRemaining": 1
+      },
+      {
+        "id": "016d782c-9679-46fa-951f-b4764b17cc56",
+        "name": "Dan",
+        "color": "#7D9BC8",
+        "votesRemaining": 1
+      },
+      {
+        "id": "6f6e8a4d-8d15-4e21-b00a-63b463e75014",
+        "name": "Alin",
+        "color": "#FF8E70",
+        "votesRemaining": 1
+      },
+      {
+        "id": "1af73477-3be5-4368-b7a4-fb7a396115d7",
+        "name": "Alex",
+        "color": "#1e4a8f",
+        "votesRemaining": 2
+      },
+      {
+        "id": "ba43fe3c-deb2-4938-91f6-cf3d4df2530a",
+        "name": "Ion",
+        "color": "#5a7eb0",
+        "votesRemaining": 2
+      }
+    ]
+  }
+}
